@@ -1,0 +1,20 @@
+{
+    "response": [
+        {
+            "code": 200,
+            "message": "Connected...Please Wait..."
+        },
+        {
+            "code": 401,
+            "message": "Invalid API Key. This can happen because you did not specify your API key in API request. Your API key is not activated yet. Within the next couple of hours, it will be activated and ready to use. You are using wrong API key in API request. Please, check your right API key in personal account. You have FREE subscription and try to get access to our paid services (for example, 16 days/daily forecast API, any historical weather data, Weather maps 2.0, etc). Please, check your tariff in your personal account and pay attention at our price and condition."
+        },
+        {
+            "code": 404,
+            "message": "Application Error"
+        },
+        {
+            "code": 429,
+            "message": "Unable to process your request. This can happen if you have FREE tariff and make more than 60 API calls per minute. Please, check your application and reduce the number of calls to our services."
+        }
+    ]
+}
